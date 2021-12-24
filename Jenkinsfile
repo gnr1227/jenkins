@@ -3,7 +3,7 @@ pipeline{
     stages {
         stage("Build"){
             options {
-                skipDeaultcheckout()
+                skipDefaultcheckout()
             }
             steps {
                 echo "Hello Narendra"
