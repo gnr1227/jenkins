@@ -28,7 +28,7 @@ pipeline {
         stage('SkipDefaultCheckout checking........') {
             agent any
             options {
-                SkipDefaultCheckout()
+                skipDefaultCheckout()
             }
             steps {
                 echo "Hello Narendra"
