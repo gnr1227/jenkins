@@ -29,7 +29,8 @@ pipeline {
             agent any
             /*options {
                 skipDefaultCheckout()
-            */}
+            }
+            */
             steps {
                 echo "Hello Narendra"
             }
