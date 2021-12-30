@@ -22,5 +22,18 @@ pipeline {
 }
 */
 
-
+pipeline {
+    agent none
+    stages {
+        stage('SkipDefaultCheckout checking........') {
+            agent any
+            options {
+                SkipDefaultCheckout()
+            }
+            steps {
+                echo "Hello Narendra"
+            }
+        }
+    }
+}
         
